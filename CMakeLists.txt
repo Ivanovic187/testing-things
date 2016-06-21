@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (StringTest)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "build/")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
+subdirs(src)
